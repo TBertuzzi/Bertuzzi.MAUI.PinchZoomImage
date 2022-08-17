@@ -8,9 +8,9 @@ A simple way to zoom in and zoom out on your images with MAUI.
  
  **NuGet**
 
-|Name|Info|Contributors|
-| ------------------- | ------------------- | ------------------- |
-|Bertuzzi.MAUI.PinchZoomImage|[![NuGet](https://buildstats.info/nuget/Bertuzzi.MAUI.PinchZoomImage)](https://www.nuget.org/packages/Bertuzzi.MAUI.PinchZoomImage/)|[![GitHub contributors](https://img.shields.io/github/contributors/TBertuzzi/Bertuzzi.MAUI.PinchZoomImage.svg)](https://github.com/TBertuzzi/Bertuzzi.MAUI.PinchZoomImage/graphs/contributors)|
+|Name|Info|
+| ------------------- | ------------------- | 
+|Bertuzzi.MAUI.PinchZoomImage|[![NuGet](https://buildstats.info/nuget/Bertuzzi.MAUI.PinchZoomImage)](https://www.nuget.org/packages/Bertuzzi.MAUI.PinchZoomImage/)|
 
  
  **Platform Support**
