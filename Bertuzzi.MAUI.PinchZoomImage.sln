@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bertuzzi.MAUI.PinchZoomImage", "Bertuzzi.MAUI.PinchZoomImage\Bertuzzi.MAUI.PinchZoomImage.csproj", "{01196363-38A1-4766-A49A-A689FD0152FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinchZoomImageMauiSample", "PinchZoomImageMauiSample\PinchZoomImageMauiSample.csproj", "{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{01196363-38A1-4766-A49A-A689FD0152FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01196363-38A1-4766-A49A-A689FD0152FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01196363-38A1-4766-A49A-A689FD0152FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E63B8D-90F9-43C3-BFEC-8E07177A2C27}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
