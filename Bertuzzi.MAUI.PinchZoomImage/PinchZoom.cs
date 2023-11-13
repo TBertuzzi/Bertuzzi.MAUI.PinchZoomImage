@@ -63,6 +63,8 @@
             }
         }
 
+        View ParentView => this.Parent as View;
+
         public void OnPanUpdated(object sender, PanUpdatedEventArgs e)
         {
             if (Content.Scale == 1)
@@ -80,13 +82,16 @@
                     var width = (Content.Width * Content.Scale);
                     var height = (Content.Height * Content.Scale);
 
-                    var canMoveX = width > Application.Current.MainPage.Width;
-                    var canMoveY = height > Application.Current.MainPage.Height;
+                    var parentWidth = ParentView.Width;
+                    var parentHeight = ParentView.Height;
+
+                    var canMoveX = width > parentWidth;
+                    var canMoveY = height > parentHeight;
 
                     if (canMoveX)
                     {
-                        var minX = (width - (Application.Current.MainPage.Width / 2)) * -1;
-                        var maxX = Math.Min(Application.Current.MainPage.Width / 2, width / 2);
+                        var minX = (width - (parentWidth / 2)) * -1;
+                        var maxX = Math.Min(parentWidth / 2, width / 2);
 
                         if (newX < minX)
                         {
@@ -105,8 +110,8 @@
 
                     if (canMoveY)
                     {
-                        var minY = (height - (Application.Current.MainPage.Height / 2)) * -1;
-                        var maxY = Math.Min(Application.Current.MainPage.Width / 2, height / 2);
+                        var minY = (height - (parentHeight / 2)) * -1;
+                        var maxY = Math.Min(parentHeight / 2, height / 2);
 
                         if (newY < minY)
                         {
